@@ -1,0 +1,11 @@
+example_id                                           | status | run_time        |
+---------------------------------------------------- | ------ | --------------- |
+./spec/lib/telegram-notifier/client_spec.rb[1:1:1]   | passed | 0.00057 seconds |
+./spec/lib/telegram-notifier/client_spec.rb[1:2:1]   | passed | 0.00019 seconds |
+./spec/lib/telegram-notifier/client_spec.rb[1:3:1:1] | passed | 0.03263 seconds |
+./spec/lib/telegram-notifier/client_spec.rb[1:3:2:1] | passed | 0.00807 seconds |
+./spec/lib/telegram-notifier/config_spec.rb[1:1:1]   | passed | 0.0001 seconds  |
+./spec/lib/telegram-notifier/config_spec.rb[1:2:1]   | passed | 0.00023 seconds |
+./spec/lib/telegram-notifier/config_spec.rb[1:3:1]   | passed | 0.00135 seconds |
+./spec/lib/telegram-notifier/config_spec.rb[1:4:1]   | passed | 0.00011 seconds |
+./spec/lib/telegram-notifier_spec.rb[1:1]            | passed | 0.00147 seconds |

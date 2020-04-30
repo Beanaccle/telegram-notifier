@@ -1,0 +1,19 @@
+current directory: /Users/masatoeiki/local/telegram-notifier/vendor/bundle/ruby/2.6.0/gems/byebug-11.0.1/ext/byebug
+/Users/masatoeiki/.rbenv/versions/2.6.3/bin/ruby -I /Users/masatoeiki/.rbenv/versions/2.6.3/lib/ruby/2.6.0 -r ./siteconf20190722-3443-x7sw64.rb extconf.rb
+creating Makefile
+
+current directory: /Users/masatoeiki/local/telegram-notifier/vendor/bundle/ruby/2.6.0/gems/byebug-11.0.1/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /Users/masatoeiki/local/telegram-notifier/vendor/bundle/ruby/2.6.0/gems/byebug-11.0.1/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.bundle
+
+current directory: /Users/masatoeiki/local/telegram-notifier/vendor/bundle/ruby/2.6.0/gems/byebug-11.0.1/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.bundle ./.gem.20190722-3443-1g3cpqs/byebug

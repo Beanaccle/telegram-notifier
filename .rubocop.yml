@@ -1,0 +1,29 @@
+require: rubocop-rspec
+
+AllCops:
+  DisplayCopNames: true
+  DisplayStyleGuide: true
+
+# Naming ------------------------------------
+
+Naming/FileName:
+  Exclude:
+    - lib/telegram-notifier.rb
+    - spec/lib/telegram-notifier_spec.rb
+
+# Style ------------------------------------
+
+Style/Documentation:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+# Metrics ----------------------------------
+
+Metrics/LineLength:
+  Max: 128
+
+Metrics/BlockLength:
+  Exclude:
+    - spec/**/*
